@@ -1,7 +1,5 @@
 # README
 /******************************************************************/
-THIS IS A SAMPLE TEST APPLICATION DEVELOPED FOR McFADYEN SOLUTIONS.
-# Sudoku - (McFadyen Test Application)
 # Author : Mohamed Shanil PA
 # Language: Javascript
 # Version: ES5
