@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>McFadyen - Test</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet/less" type="text/css" href="src/styles/index.less" />
+  <script src="src/lib/less/dist/less.js" type="text/javascript"></script>
+  <script data-main="src/main.js" src="src/lib/requirejs/require.js"></script>
+  <script type="text/javascript">
+    less = {
+      env: 'development'
+    };
+  </script>
+</head>
+
+<body>
+  <!-- MAIN PAGE WRAP -->
+  <div class="cp_main_wrap">
+    <!-- HEADER -->
+    <header class="cp_header_wrap hoverable">
+      <div class="col s12">
+        <a href="#">
+          <i class="fa fa-gamepad fa-3x"></i>
+          <span>SUDOKU</span>
+        </a>
+        <a id="gameRules_btn" class="waves-effect waves-light btn modal-trigger" href="#gameRules">Game Rules</a>
+      </div>
+    </header>
+    <!-- MAIN APP CONTAINER -->
+    <div class="row">
+      <div class="col s12 cp_ops_wrap">
+        <div id="game_container" class="col s8"></div>
+        <div class="col s4">
+          <div id="scorecard" class="col s12">
+            <div class="card-panel hoverable grey lighten-5 z-depth-1">
+              <div class="row valign-wrapper">
+                <div class="col s5">
+                  <img src="src/images/user1.jpg" alt="" class="circle responsive-img">
+                </div>
+                <div class="col s10">
+                  <h5 class="black-text">Mohamed Shanil</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="gameRules" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>The Rules of Sudoku</h4>
+      <ul>
+        <li>The classic Sudoku game involves a grid of 81 squares.</li>
+        <li>The grid is divided into nine blocks, each containing nine squares.</li>
+        <li>The rules of the game are simple: each of the nine blocks has to contain all the numbers 1-9 within its squares.</li>
+        <li>Each number can only appear once in a row, column or box.</li>
+      </ul>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+  <div id="gameOver" class="modal game_over_bg_img">
+    <div class="modal-content">
+      <h1>Game Over</h1>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Play Again</a>
+    </div>
+  </div>
+</body>
+</html>

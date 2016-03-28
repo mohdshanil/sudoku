@@ -1,0 +1,23 @@
+{
+  "name": "mcfadyen",
+  "description": "",
+  "main": "",
+  "authors": [
+    "shanu <mohdshanil@yahoo.co.in>"
+  ],
+  "license": "MIT",
+  "moduleType": [
+
+  ],
+  "homepage": "",
+  "ignore": [
+
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "Materialize": "materialize#^0.97.5",
+    "font-awesome": "fontawesome#^4.5.0",
+    "less": "less.js#^2.6.0",
+    "requirejs": "^2.1.22"
+  }
+}
